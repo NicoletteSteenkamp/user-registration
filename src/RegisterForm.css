@@ -30,6 +30,7 @@
 .form-group input,
 .form-group textarea {
     width: 100%; 
+    font-weight: bold;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 3px;

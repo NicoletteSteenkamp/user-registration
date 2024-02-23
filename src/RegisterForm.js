@@ -67,8 +67,9 @@ function RegisterForm() {
                 <div className="form-group">
                     <label htmlFor="bio">Short Bio</label>
                     <textarea id="bio" value={bio} onChange={(e) => setBio(e.target.value)} required />
+                    Share a little information about yourself
                 </div>
-                <button type="submit">Register</button>
+                <button type="submit">Submit</button>
             </form>
         </div>
     );
